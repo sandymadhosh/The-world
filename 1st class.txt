@@ -1,0 +1,3 @@
+#todays work 1st class
+we made a new account in github where the repository name is The world and
+we learnt to print name add and multiply and simple mathematic work
