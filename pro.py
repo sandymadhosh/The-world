@@ -18,8 +18,8 @@ time.sleep(3)
 a=""
 
 def mai():
-    fromaddr = "raspiduino17300@gmail.com"
-    toaddr = "madhoshmanikandan@gmail.com"
+    fromaddr = "sender@gmail.com"
+    toaddr = "gmail.com"
   
 # instance of MIMEMultipart
     msg = MIMEMultipart()
@@ -64,7 +64,7 @@ def mai():
     s.starttls()
  
 # Authentication
-    s.login(fromaddr, "parammadman420")
+    s.login(fromaddr, "pass")
  
 # Converts the Multipart msg into a string
     text = msg.as_string()
